@@ -12,10 +12,10 @@
 
 ## 1 传统目标检测
 
-通过传统图像处理的方法，使前景和背景的分离，以此来实现检测杂物的目标
+通过传统图像处理的方法，使前景和背景的分离，以此来实现检测杂物的目标  
 下面是实验测试中用到的几幅图片，分辨率均为224*224，最后一张是背景图：
 
-[![b490.jpg](https://i.postimg.cc/vHDMDyTp/b490.jpg)](https://postimg.cc/xcrBFWKR) [![a1.jpg](https://i.postimg.cc/d1Dk0rKC/a118.jpg)](https://postimg.cc/hzWPyJv4) [![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS)
+[![b490.jpg](https://i.postimg.cc/vHDMDyTp/b490.jpg)](https://postimg.cc/xcrBFWKR) [![a1.jpg](https://i.postimg.cc/d1Dk0rKC/a118.jpg)](https://postimg.cc/hzWPyJv4) [![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS)  
 [![b2.jpg](https://i.postimg.cc/NFD1nTmP/bback.jpg)](https://postimg.cc/y3JggDfF) [![c2.jpg](https://i.postimg.cc/SxbDhhHm/c2.jpg)](https://postimg.cc/4mwz6rJ0)
 
 ## 1.1 边缘检测
@@ -38,7 +38,7 @@ while(True):
     lcd.display(img)
 ```
 
-[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-canny.jpg](https://i.postimg.cc/1zrWdDsx/c1-canny.jpg)](https://postimg.cc/sB19QQMK)
+[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-canny.jpg](https://i.postimg.cc/1zrWdDsx/c1-canny.jpg)](https://postimg.cc/sB19QQMK)  
 [![c2.jpg](https://i.postimg.cc/SxbDhhHm/c2.jpg)](https://postimg.cc/4mwz6rJ0) [![c1-canny.jpg](https://i.postimg.cc/1zrWdDsx/c1-canny.jpg)](https://postimg.cc/sB19QQMK)
 
 ### 1.1.2 Morph滤波
@@ -70,7 +70,7 @@ while(True):
     lcd.display(img)
 ```
 
-[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-morph-only.jpg](https://i.postimg.cc/0Qb8nYJn/c1-morph-only.jpg)](https://postimg.cc/1n1h5NBV) [![c1-morph-binary.jpg](https://i.postimg.cc/pTKTfXHL/c1-morph-binary.jpg)](https://postimg.cc/sQDsyzxk)
+[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-morph-only.jpg](https://i.postimg.cc/0Qb8nYJn/c1-morph-only.jpg)](https://postimg.cc/1n1h5NBV) [![c1-morph-binary.jpg](https://i.postimg.cc/pTKTfXHL/c1-morph-binary.jpg)](https://postimg.cc/sQDsyzxk)  
 [![c2.jpg](https://i.postimg.cc/SxbDhhHm/c2.jpg)](https://postimg.cc/4mwz6rJ0) [![c2-morph-only.jpg](https://i.postimg.cc/PfVDdy4X/c2-morph-only.jpg)](https://postimg.cc/JtJ0qbvv) [![c2-morph-binary.jpg](https://i.postimg.cc/PxKGsBbM/c2-morph-binary.jpg)](https://postimg.cc/r0dZ5ZPd)
 
 #### Morph滤波 + 函数内二值化
@@ -92,7 +92,7 @@ while(True):
     lcd.display(img)
 ```
 
-[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-morph.jpg](https://i.postimg.cc/3xbC69DD/c1-morph.jpg)](https://postimg.cc/gx8ZLVsY)
+[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-morph.jpg](https://i.postimg.cc/3xbC69DD/c1-morph.jpg)](https://postimg.cc/gx8ZLVsY)  
 [![c2.jpg](https://i.postimg.cc/SxbDhhHm/c2.jpg)](https://postimg.cc/4mwz6rJ0) [![c2-morph.jpg](https://i.postimg.cc/XJNjCKQQ/c2-morph.jpg)](https://postimg.cc/Lq7FdPd1)
 
 #### Morph滤波 + 函数内二值化 + 腐蚀/膨胀
@@ -127,7 +127,7 @@ while(True):
     lcd.display(img)
 ```
 
-[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-morph-add.jpg](https://i.postimg.cc/P55rNnr0/c1-morph-add.jpg)](https://postimg.cc/pp3t17jB) [![c1-erode.jpg](https://i.postimg.cc/MH9NFN2j/c1-erode.jpg)](https://postimg.cc/Zvyw9fqT)
+[![c1.jpg](https://i.postimg.cc/PxMkmyZw/c1.jpg)](https://postimg.cc/R6q8mcgS) [![c1-morph-add.jpg](https://i.postimg.cc/P55rNnr0/c1-morph-add.jpg)](https://postimg.cc/pp3t17jB) [![c1-erode.jpg](https://i.postimg.cc/MH9NFN2j/c1-erode.jpg)](https://postimg.cc/Zvyw9fqT)  
 [![c2.jpg](https://i.postimg.cc/SxbDhhHm/c2.jpg)](https://postimg.cc/4mwz6rJ0) [![c2-morph-add.jpg](https://i.postimg.cc/Qd1SBw4k/c2-morph-add.jpg)](https://postimg.cc/5X98T7M6) [![c2-erode.jpg](https://i.postimg.cc/dV2mQd35/c2-erode.jpg)](https://postimg.cc/sM2ZwMpW)
 
 ## 1.2 轮廓提取（无内置函数）
@@ -156,6 +156,7 @@ while(True):
 ## 2.1 物体分类
 
 ## 2.2 物体检测
-my modirty tests
-sjh insnfi
-jisjf 
+
+my modirty tests  
+sjh insnfi  
+jisjf
