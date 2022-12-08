@@ -151,15 +151,10 @@ while(True):
 
 ## 1.4 图像相似性
 
+## 1.5 直线检测
+
 ## 2 深度学习目标检测
 
 ## 2.1 物体分类
 
 ## 2.2 物体检测
-
-my modirty tests  
-sjh insnfi  
-atestd
-sasdsd
-3jsd
-sadsd
