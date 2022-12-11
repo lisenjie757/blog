@@ -4,6 +4,19 @@
 
 吴恩达cs230课程中的一节，视频链接：[link](https://www.bilibili.com/video/BV195411Y7ms/?from=search&seid=6380620962674373232&spm_id_from=333.337.0.0&vd_source=e8390493db96c0c1ca516a431544c5d8)
 
+### 1.1 收集论文
+
+1. 编制论文清单（arxiv，github，blog）
+2. 快速浏览，从清单中进行挑选
+3. 决定你要关注哪些论文
+
+> 5-20篇论文：对某一领域有基本的了解，可以应用一些算法
+> 50-100篇论文：对某一领域有了很好的了解
+
+### 1.2 多遍读论文
+
+1. 标题+摘要+图表
+
 ## 2 【李沐】如何读论文
 
 视频连接：[link](https://www.bilibili.com/video/BV1H44y1t75x/?spm_id_from=333.999.0.0&vd_source=e8390493db96c0c1ca516a431544c5d8)
